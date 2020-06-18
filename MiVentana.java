@@ -7,6 +7,7 @@ class MiVentana extends JFrame
 		JPanel panel;
 		JLabel lblTexto1;
 		JButton btnBoton1;
+		JButton btnBoton2;
 
 		panel = new JPanel();
 		panel.setLayout(null);
@@ -14,6 +15,8 @@ class MiVentana extends JFrame
 		lblTexto1.setBounds(50, 40, 200, 10);
 		btnBoton1 = new JButton("OK");
 		btnBoton1.setBounds(50, 100, 100, 30);
+		btnBoton2 = new JButton("OK 2");
+		btnBoton2.setBounds(50, 100, 100, 30);
 
 		panel.add(lblTexto1);
 		panel.add(btnBoton1);
